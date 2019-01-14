@@ -249,3 +249,49 @@ footer {
   width: 420px;
   height: 300px;
 }
+
+/* New Code */
+
+/* Deletes the Image */
+
+@media(max-width: 800px){
+    .cta img{
+        display: none;
+    }
+}
+
+/* Positions the H1 and button */
+
+@media(max-width: 800px){
+    .cta {
+        justify-content: space-around;
+    }
+}
+
+/* Position the logo and nav */
+@media(max-width: 800px){
+    header  {
+        flex-direction: column-reverse;
+    }
+
+    header .logo{
+        width: 20%;
+        margin-left: 37%;
+    }
+
+    header nav{
+        margin-left: 11%;
+    }
+
+    .container{
+        padding: 20px;
+    }
+
+    .main-content{
+        width: 90%;
+    }
+
+    .main-content .middle-img{
+        width: 100%;
+    }
+}
